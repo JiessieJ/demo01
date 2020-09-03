@@ -1,0 +1,38 @@
+server:
+  port: 8111
+
+management:
+    metrics:
+        export:
+            prometheus:
+                enabled: true
+                step: 1m
+                descriptions: true
+    web:
+        server:
+            auto-time-requests: true
+    endpoints:
+        prometheus:
+            id: springmetrics
+        web:
+            exposure:
+                include: health,info,env,prometheus,metrics,httptrace,threaddump,heapdump,springmetrics
+
+
+spring:
+  application:
+    name: test01
+  mvc:
+    async:
+      request-timeout: 60000
+  data:
+    elasticsearch:
+      host: 172.17.4.157
+      port: 9200
+      userName: admin
+      passWord: bigdata198122
+      connectTimeout: 1800
+      socketTimeOut: 3600
+      connectionRequestTimeOut: 1800
+      maxConnectNum: 100
+      maxConnectPerRoute: 100
