@@ -12,6 +12,8 @@ public class Test01Application {
         System.out.println(555);
 
         System.out.println("test");
+
+        System.out.println("test1");
     }
 
 }
