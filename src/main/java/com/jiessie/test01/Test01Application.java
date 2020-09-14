@@ -14,6 +14,7 @@ public class Test01Application {
         System.out.println(222);
 
         System.out.println(222);
+        System.out.println("admin");
     }
 
 }
