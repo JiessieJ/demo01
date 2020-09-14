@@ -55,6 +55,7 @@ public class Elasticsearch6Configuration implements FactoryBean<RestHighLevelCli
 
     @Override
     public void afterPropertiesSet() throws Exception {
+
         restHighLevelClient = getClient();
     }
 
