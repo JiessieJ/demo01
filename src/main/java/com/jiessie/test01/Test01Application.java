@@ -19,6 +19,8 @@ public class Test01Application {
         System.out.println("admin2");
 
         System.out.println("admin3");
+
+        System.out.println("test");
     }
 
 }
