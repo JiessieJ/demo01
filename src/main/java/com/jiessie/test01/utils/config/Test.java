@@ -5,5 +5,7 @@ public class Test {
 
         System.out.println("a第一次提交0001");
         System.out.println("a第一次提交0002");
+
+        System.out.println("test2分支第一次提交001");
     }
 }
