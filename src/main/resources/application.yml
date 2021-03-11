@@ -27,7 +27,7 @@ spring:
       request-timeout: 60000
   data:
     elasticsearch:
-      host: 172.17.4.157
+      host: 39.98.159.13
       port: 9200
       userName: admin
       passWord: bigdata198122
@@ -36,3 +36,4 @@ spring:
       connectionRequestTimeOut: 1800
       maxConnectNum: 100
       maxConnectPerRoute: 100
+
